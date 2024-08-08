@@ -1,0 +1,30 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform variables files
+*.tfvars
+*.auto.tfvars
+
+# Terraform plan files
+*.tfplan
+
+# Terraform module and plugin directories
+.terraform/
+
+# Override and ignore any pre-existing .terraformrc file
+.terraformrc
+terraform.rc
+
+# Ignore crash logs
+crash.log
+
+# Ignore extension and editor specific files
+*.swp
+*.bak
+*.tmp
+*.old
+*.orig
+
+# Ignore log files
+*.log

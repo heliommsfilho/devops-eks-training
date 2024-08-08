@@ -1,0 +1,7 @@
+region                = "eu-west-1"
+aws_profile           = "heliommsfilho-cli-admin"
+vpc_name              = "heliommsfilho-vpc"
+eks_cluster_name      = "heliommsfilho-eks-cluster"
+eks_cluster_role_name = "heliommsfilho-eks-cluster-role"
+vpc_cidr              = "10.0.0.0/16"
+k8s_version           = "1.30"
